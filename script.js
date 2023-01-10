@@ -415,4 +415,33 @@ while(num > 0) {
 console.log(`The sum is ${sum}.`);
 
 //-----------------------------------------------------------------------------------------
+
+//30. Shallow copying in Array
+orgArr = ['pizza', 'burger', 'hotdog'];
+newArr = orgArr;
+newArr[0] = 'sandwich';
+console.log('The original array is:');
+console.log(orgArr)
+console.log('The new array is:');
+console.log(newArr)
+
+//-----------------------------------------------------------------------------------------
+
+//31. Deep copying in Array
+orgArr = ['pizza', 'burger', 'hotdog'];
+newArr = new Array;
+console.log('The original array is:');
+console.log(orgArr)
+for(let i = 0; i < orgArr.length; i++){
+    newArr.push(orgArr[i]);
+}
+console.log('The new array is:');
+console.log(newArr)
+newArr[0] = 'sandwich';
+console.log('The original array after updation is:');
+console.log(orgArr)
+console.log('The new array after updation is:');
+console.log(newArr)
+
+//-----------------------------------------------------------------------------------------
 */
