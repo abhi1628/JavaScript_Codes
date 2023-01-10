@@ -444,4 +444,25 @@ console.log('The new array after updation is:');
 console.log(newArr)
 
 //-----------------------------------------------------------------------------------------
+
+// 32. Sum of positive numbers using do...while loop
+let sum = 0;
+let num = 0;
+do {
+    sum += num;
+    num = Number(prompt('Enter a number: '));
+} while(num >= 0)
+console.log(`The sum is ${sum}`);
+
+//-----------------------------------------------------------------------------------------
+
+//33. Creating a basic dictionary (called as object) in JavaScript
+let bio = new Object();
+bio['first_name'] = 'Tony';
+bio['last_name'] = 'Stark';
+bio['fav_lang'] = 'AI';
+console.log('Basic Dictionary created:')
+console.log(bio);
+
+//-----------------------------------------------------------------------------------------
 */
