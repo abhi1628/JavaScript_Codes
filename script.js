@@ -17,7 +17,7 @@ if (arm === temp) {
   console.log(`${temp} is not an Armstrong number`);
 }
 
-//------------------------------------------------------
+//-----------------------------------------------------------------------------------------
 
 //2. 3 digit Armstrong Number
 let num = Number(prompt("Enter a 3 digit number:"));
@@ -35,7 +35,7 @@ if (arm === temp) {
   console.log(`${temp} is not an Armstrong number`);
 }
 
-//------------------------------------------------------
+//-----------------------------------------------------------------------------------------
 
 //3. Find LCM of numbers
 let num1 = Number(prompt("Enter the 1st number:"));
@@ -57,7 +57,7 @@ while (true) {
 }
 console.log("The LCM of " + num1 + " and " + num2 + " is " + lcm_is);
 
-//-------------------------------------------------------
+//-----------------------------------------------------------------------------------------
 
 //4. Print the table of any given number upto any given number
 let num = Number(prompt("Enter a number:"));
@@ -68,7 +68,7 @@ for (let i = 1; i <= end_num; i++) {
   console.log(num + " x " + i + " = " + num * i);
 }
 
-//------------------------------------------------------
+//-----------------------------------------------------------------------------------------
 
 //5. Find greater number from three numbers
 let num1 = Number(prompt("Enter the 1st number:"));
@@ -82,7 +82,7 @@ if (num1 > num2 && num1 > num3) {
   console.log(num3 + " is greater");
 }
 
-//------------------------------------------------------
+//-----------------------------------------------------------------------------------------
 
 //6. Sum of digits of a given number
 let num = Number(prompt("Enter a number:"));
@@ -96,7 +96,7 @@ while (num > 0) {
 }
 console.log("The sum of the digits of the number " + temp + " is " + sum);
 
-//------------------------------------------------------
+//-----------------------------------------------------------------------------------------
 
 //7. Factorial of a given number
 let a = Number(prompt("Enter a number:"));
@@ -106,7 +106,7 @@ for (let i = 1; i <= a; i++) {
 }
 console.log("The factorial of " + a + " is " + fact);
 
-//------------------------------------------------------
+//-----------------------------------------------------------------------------------------
 
 //8. Sum of digits of a number upto single digit
 let num = Number(prompt("Enter a number:"));
@@ -114,7 +114,7 @@ const temp = num;
 const res = num % 9 === 0 ? 9 : num % 9;
 console.log("The sum of digits of " + temp + " is " + res);
 
-//------------------------------------------------------
+//-----------------------------------------------------------------------------------------
 
 //9. Add array elements
 let arr = [1, 2, 3, 4, 15, 10];
@@ -124,7 +124,7 @@ for (let i = 0; i < arr.length; i++) {
 }
 console.log(sum);
 
-//------------------------------------------------------
+//-----------------------------------------------------------------------------------------
 
 //10. concate two arrays
 const evennums = [0, 2, 4, 6, 8];
@@ -137,7 +137,7 @@ const evennums = [0, 2, 4, 6, 8];
 let num = [].concat(evennums, 10);
 console.log(num);
 
-//------------------------------------------------------
+//-----------------------------------------------------------------------------------------
 
 //11. insert one element at last place
 const num = [3,4,5,6];
@@ -151,7 +151,7 @@ const num = [3,4,5,6];
 const new_num = num.push(7,8,9);
 console.log(new_num);
 
-//------------------------------------------------------
+//-----------------------------------------------------------------------------------------
 
 //12. insert one element at any given place
 const num = [4,5,6,7];
@@ -166,7 +166,7 @@ console.log(num);
 //but the splice method changes the original array. 
 //It does not remove any elements, so it returns an empty array.
 
-//---------------------------------------------------------
+//-----------------------------------------------------------------------------------------
 
 //13. insert one element at zeroth place
 const num = [3,4,5,6];
@@ -180,7 +180,7 @@ const num = [3,4,5,6];
 const new_num = num.unshift(0,1,2);
 console.log(new_num);
 
-//---------------------------------------------------------
+//-----------------------------------------------------------------------------------------
 
 //14. Check if the given number is prime number or not
 const num = Number(prompt("Enter a number: "));
@@ -209,7 +209,7 @@ else {
     console.log("Enter a positive number");
 }
 
-//---------------------------------------------------------
+//-----------------------------------------------------------------------------------------
 
 //15. Check if the given number is even or odd
 const num = Number(prompt('Enter a number: '));
@@ -220,7 +220,7 @@ else{
   console.log(`${num} is odd`);
 }
 
-//---------------------------------------------------------
+//-----------------------------------------------------------------------------------------
 
 //16. Check if the given number is positive or negative
 const num = Number(prompt('Enter a number: '));
@@ -231,7 +231,7 @@ else{
   console.log(`${num} is negative`);
 }
 
-//---------------------------------------------------------
+//-----------------------------------------------------------------------------------------
 
 //17. Find the factors
 const num = prompt('Enter a positive number: ');
@@ -244,7 +244,7 @@ for(let i = 1; i <= num; i++) {
     }
 }
 
-//---------------------------------------------------------
+//-----------------------------------------------------------------------------------------
 
 //18. Find the Fibonacci Series
 const num = Number(prompt('Enter the number of terms: '));
@@ -255,7 +255,7 @@ for (let i = 1; i <= num; i++) {
     [n1, n2] = [n2, n1 + n2];
 }
 
-//---------------------------------------------------------
+//-----------------------------------------------------------------------------------------
 
 //19. Find greater number from three numbers
 let num1 = Number(prompt("Enter the 1st number:"));
@@ -269,7 +269,7 @@ if (num1 > num2 && num1 > num3) {
   console.log(num3 + " is greater");
 }
 
-//---------------------------------------------------------
+//-----------------------------------------------------------------------------------------
 
 //20. String Palindrome with case sensitivity
 org_str = prompt('Enter a string:');
@@ -281,7 +281,7 @@ else{
     console.log('Not Palindrome');
 }
 
-//---------------------------------------------------------
+//-----------------------------------------------------------------------------------------
 
 //21. String Palindrome without case sensitivity
 org_str = prompt('Enter a string:').toLowerCase();
@@ -293,7 +293,7 @@ else{
     console.log('Not Palindrome');
 }
 
-//---------------------------------------------------------
+//-----------------------------------------------------------------------------------------
 
 //22. Swap without using third variable
 let a = prompt('Enter the first variable: ');
@@ -302,7 +302,7 @@ let b = prompt('Enter the second variable:');
 console.log(`The value of a after swapping: ${a}`);
 console.log(`The value of b after swapping: ${b}`);
 
-//---------------------------------------------------------
+//-----------------------------------------------------------------------------------------
 
 //23. Check if the year is leap year or not
 const year = parseInt(prompt('Enter the year:'));
@@ -313,7 +313,7 @@ else{
   console.log(`${year} is not a leap year`);  
 }
 
-//---------------------------------------------------------
+//-----------------------------------------------------------------------------------------
 
 //24. Reverse the digits of any number
 let num = parseInt(prompt('Enter a number:'));
@@ -326,7 +326,7 @@ while(num){
 }
   console.log(`The reverse of ${temp} is ${rev}`); 
 
-//---------------------------------------------------------
+//-----------------------------------------------------------------------------------------
 
 //25. Array basic operations
  arr = new Array('pizza', 'burger', 'coke');
@@ -355,7 +355,7 @@ while(num){
  newArr = orgArr.splice(orgArr.indexOf('coke'),1,'pizza');
  console.log('The array after 3rd updation is:' + orgArr);
 
-//---------------------------------------------------------
+//-----------------------------------------------------------------------------------------
 
 //26. Reverse Array Elements
 let arr = new Array('pizza', 'burger', 'coke');
@@ -368,7 +368,7 @@ for (let i = arr.length-1; i >= 0; i--){
 console.log('The reversed array elements are:');
 console.log(revArrElements);
 
-//---------------------------------------------------------
+//-----------------------------------------------------------------------------------------
 
 //27. Splitting the array elements as per even and odd index position and storing the result in two different arrays
 let arr = new Array('pizza', 'burger', 'coke', 'beer');
@@ -392,7 +392,7 @@ console.log(evenArrElements);
 console.log('The new array with odd numbered position elements is:');
 console.log(oddArrElements);
 
-//---------------------------------------------------------
+//-----------------------------------------------------------------------------------------
 
 //28. for...in loop
 let arr = new Array('pizza', 'burger', 'coke', 'beer');
@@ -402,5 +402,17 @@ for (let i in arr){
     console.log(arr[i]);
 }
 
-//---------------------------------------------------------
+//-----------------------------------------------------------------------------------------
+
+//29. Sum of Positive Numbers Only
+let sum = 0;
+let num = parseInt(prompt('Enter a number: '));
+
+while(num > 0) {
+    sum += num;
+    num = parseInt(prompt('Enter another number greater than zero: '));
+}
+console.log(`The sum is ${sum}.`);
+
+//-----------------------------------------------------------------------------------------
 */
